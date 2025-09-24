@@ -42,6 +42,8 @@ import kotlin.math.min
 
 class CallActivity : SimpleActivity() {
     companion object {
+        private const val AUTO_MUTE_DELAY_MS = 10000
+
         fun getStartIntent(context: Context): Intent {
             val openAppIntent = Intent(context, CallActivity::class.java)
             openAppIntent.flags = Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT or Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_REORDER_TO_FRONT
@@ -754,7 +756,7 @@ class CallActivity : SimpleActivity() {
                     isMicrophoneOff = true
                     updateMicrophoneButton()
                 }
-            }, 10000) // 10 seconds delay
+            }, AUTO_MUTE_DELAY_MS) // 10 seconds delay
         }
     }
 
