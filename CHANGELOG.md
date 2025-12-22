@@ -5,8 +5,50 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.10.0] - 2025-12-16
+### Changed
+- Updated translations
+
+### Fixed
+- Fixed overlap between the call screen avatar and the camera notch ([#645])
+- Fixed overlap between the call-on-hold banner and the status bar
+- Fixed search highlighting for characters with accents and diacritics
+
+## [1.9.0] - 2025-11-03
+### Added
+- Ability to create contact by clicking thumbnail in call history ([#631])
+
+### Changed
+- Updated translations
+
+### Fixed
+- Fixed invisible status bar icons in calls ([#628])
+
+## [1.8.0] - 2025-10-29
+### Changed
+- Compatibility updates for Android 15 & 16
+- Updated translations
+
+### Fixed
+- Fixed incoming call screen hidden by lock screen ([#165])
+
+## [1.7.3] - 2025-10-16
+### Changed
+- Updated translations
+
+### Fixed
+- Fixed crash in call history
+- Fixed custom sorting in favorites not taking effect until app restart ([#389])
+
+## [1.7.2] - 2025-10-01
+### Changed
+- Updated translations
+
 ### Fixed
 - Fixed wrong contact photo in call history for some contacts ([#585])
+- Fixed hidden/private number detection in call history ([#594])
+- Fixed search not matching full phone numbers
 
 ## [1.7.1] - 2025-09-12
 ### Changed
@@ -184,6 +226,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [#139]: https://github.com/FossifyOrg/Phone/issues/139
 [#146]: https://github.com/FossifyOrg/Phone/issues/146
 [#147]: https://github.com/FossifyOrg/Phone/issues/147
+[#165]: https://github.com/FossifyOrg/Phone/issues/165
 [#181]: https://github.com/FossifyOrg/Phone/issues/181
 [#183]: https://github.com/FossifyOrg/Phone/issues/183
 [#186]: https://github.com/FossifyOrg/Phone/issues/186
@@ -194,13 +237,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [#357]: https://github.com/FossifyOrg/Phone/issues/357
 [#359]: https://github.com/FossifyOrg/Phone/issues/359
 [#378]: https://github.com/FossifyOrg/Phone/issues/378
+[#389]: https://github.com/FossifyOrg/Phone/issues/389
 [#526]: https://github.com/FossifyOrg/Phone/issues/526
 [#535]: https://github.com/FossifyOrg/Phone/issues/535
 [#543]: https://github.com/FossifyOrg/Phone/issues/543
 [#565]: https://github.com/FossifyOrg/Phone/issues/565
 [#585]: https://github.com/FossifyOrg/Phone/issues/585
+[#594]: https://github.com/FossifyOrg/Phone/issues/594
+[#628]: https://github.com/FossifyOrg/Phone/issues/628
+[#631]: https://github.com/FossifyOrg/Phone/issues/631
+[#645]: https://github.com/FossifyOrg/Phone/issues/645
 
-[Unreleased]: https://github.com/FossifyOrg/Phone/compare/1.7.1...HEAD
+[Unreleased]: https://github.com/FossifyOrg/Phone/compare/1.10.0...HEAD
+[1.10.0]: https://github.com/FossifyOrg/Phone/compare/1.9.0...1.10.0
+[1.9.0]: https://github.com/FossifyOrg/Phone/compare/1.8.0...1.9.0
+[1.8.0]: https://github.com/FossifyOrg/Phone/compare/1.7.3...1.8.0
+[1.7.3]: https://github.com/FossifyOrg/Phone/compare/1.7.2...1.7.3
+[1.7.2]: https://github.com/FossifyOrg/Phone/compare/1.7.1...1.7.2
 [1.7.1]: https://github.com/FossifyOrg/Phone/compare/1.7.0...1.7.1
 [1.7.0]: https://github.com/FossifyOrg/Phone/compare/1.6.2...1.7.0
 [1.6.2]: https://github.com/FossifyOrg/Phone/compare/1.6.1...1.6.2
